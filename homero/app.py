@@ -41,7 +41,7 @@ class App(object):
     def descompilar(self, rutalocal=None, ruta_busqueda=None, descompilar=False, descompilar_init=False):
         """
             Método que ``descompila`` los archivos `.pyc` a `.py`
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         :param rutalocal: Una cadena con la ruta en donde se guardarán los archivos descompilados.
         :param ruta_busqueda: Una cadena con la ruta de busqueda de los archivos.
         :param descompilar: Un boleano para los tests, no descompila en `False`
